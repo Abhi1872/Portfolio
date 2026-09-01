@@ -1889,3 +1889,45 @@ body{
         width:100%;
     }
 }
+
+/* =========================
+   BACK TO HOME
+========================= */
+
+.back-home{
+    display:flex;
+
+    justify-content:center;
+
+    margin-top:50px;
+}
+
+.back-home a{
+    display:inline-flex;
+
+    align-items:center;
+
+    gap:8px;
+
+    padding:11px 20px;
+
+    color:#94A3B8;
+
+    border:1px solid #1F2937;
+
+    border-radius:10px;
+
+    text-decoration:none;
+
+    font-size:14px;
+
+    transition:0.3s ease;
+}
+
+.back-home a:hover{
+    color:#10B981;
+
+    border-color:#10B981;
+
+    transform:translateY(-3px);
+}
